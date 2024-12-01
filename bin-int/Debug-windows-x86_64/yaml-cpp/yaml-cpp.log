@@ -23,7 +23,6 @@ E:\repos\MyProjects\MayhemEngine\Mayhem\vendor\yaml-cpp\src\fptostring.cpp(221,4
   ostream_wrapper.cpp
   parse.cpp
   parser.cpp
-  regex_yaml.cpp
 E:\repos\MyProjects\MayhemEngine\Mayhem\vendor\yaml-cpp\src\contrib\dragonbox.h(3008,29): warning C4267: '+=': conversion from 'size_t' to 'DecimalExponentType', possible loss of data
 E:\repos\MyProjects\MayhemEngine\Mayhem\vendor\yaml-cpp\src\contrib\dragonbox.h(3008,29): warning C4267:         with
 E:\repos\MyProjects\MayhemEngine\Mayhem\vendor\yaml-cpp\src\contrib\dragonbox.h(3008,29): warning C4267:         [
@@ -192,6 +191,7 @@ E:\repos\MyProjects\MayhemEngine\Mayhem\vendor\yaml-cpp\src\contrib\dragonbox.h(
               DecimalExponentType=YAML::jkj::dragonbox::detail::impl<YAML::jkj::dragonbox::ieee754_binary_traits<YAML::jkj::dragonbox::ieee754_binary32,uint_least32_t,int>>::compute_nearest::decimal_exponent_type_
           ]
   
+  regex_yaml.cpp
   scanner.cpp
   scanscalar.cpp
   scantag.cpp

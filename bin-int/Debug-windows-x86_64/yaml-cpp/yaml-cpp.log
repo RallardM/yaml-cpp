@@ -27,14 +27,12 @@ E:\repos\MyProjects\MayhemEngine\Mayhem\vendor\yaml-cpp\src\fptostring.cpp(221,4
   scanner.cpp
   scanscalar.cpp
   scantag.cpp
-  scantoken.cpp
-  simplekey.cpp
 E:\repos\MyProjects\MayhemEngine\Mayhem\vendor\yaml-cpp\src\contrib\dragonbox.h(3008,29): warning C4267: '+=': conversion from 'size_t' to 'DecimalExponentType', possible loss of data
 E:\repos\MyProjects\MayhemEngine\Mayhem\vendor\yaml-cpp\src\contrib\dragonbox.h(3008,29): warning C4267:         with
 E:\repos\MyProjects\MayhemEngine\Mayhem\vendor\yaml-cpp\src\contrib\dragonbox.h(3008,29): warning C4267:         [
 E:\repos\MyProjects\MayhemEngine\Mayhem\vendor\yaml-cpp\src\contrib\dragonbox.h(3008,29): warning C4267:             DecimalExponentType=YAML::jkj::dragonbox::detail::impl<YAML::jkj::dragonbox::ieee754_binary_traits<YAML::jkj::dragonbox::ieee754_binary64,uint_least64_t,int>>::compute_nearest::decimal_exponent_type_
 E:\repos\MyProjects\MayhemEngine\Mayhem\vendor\yaml-cpp\src\contrib\dragonbox.h(3008,29): warning C4267:         ]
-  (compiling source file '../yaml-cpp/src/fptostring.cpp')
+  (compiling source file 'src/fptostring.cpp')
       E:\repos\MyProjects\MayhemEngine\Mayhem\vendor\yaml-cpp\src\contrib\dragonbox.h(3008,29):
       the template instantiation context (the oldest one first) is
           E:\repos\MyProjects\MayhemEngine\Mayhem\vendor\yaml-cpp\src\fptostring.cpp(221,33):
@@ -118,7 +116,7 @@ E:\repos\MyProjects\MayhemEngine\Mayhem\vendor\yaml-cpp\src\contrib\dragonbox.h(
 E:\repos\MyProjects\MayhemEngine\Mayhem\vendor\yaml-cpp\src\contrib\dragonbox.h(2970,29): warning C4267:         [
 E:\repos\MyProjects\MayhemEngine\Mayhem\vendor\yaml-cpp\src\contrib\dragonbox.h(2970,29): warning C4267:             DecimalExponentType=YAML::jkj::dragonbox::detail::impl<YAML::jkj::dragonbox::ieee754_binary_traits<YAML::jkj::dragonbox::ieee754_binary32,uint_least32_t,int>>::compute_nearest::decimal_exponent_type_
 E:\repos\MyProjects\MayhemEngine\Mayhem\vendor\yaml-cpp\src\contrib\dragonbox.h(2970,29): warning C4267:         ]
-  (compiling source file '../yaml-cpp/src/fptostring.cpp')
+  (compiling source file 'src/fptostring.cpp')
       E:\repos\MyProjects\MayhemEngine\Mayhem\vendor\yaml-cpp\src\contrib\dragonbox.h(2970,29):
       the template instantiation context (the oldest one first) is
           E:\repos\MyProjects\MayhemEngine\Mayhem\vendor\yaml-cpp\src\fptostring.cpp(217,33):
@@ -197,6 +195,8 @@ E:\repos\MyProjects\MayhemEngine\Mayhem\vendor\yaml-cpp\src\contrib\dragonbox.h(
               DecimalExponentType=YAML::jkj::dragonbox::detail::impl<YAML::jkj::dragonbox::ieee754_binary_traits<YAML::jkj::dragonbox::ieee754_binary32,uint_least32_t,int>>::compute_nearest::decimal_exponent_type_
           ]
   
+  scantoken.cpp
+  simplekey.cpp
   singledocparser.cpp
   stream.cpp
   tag.cpp
